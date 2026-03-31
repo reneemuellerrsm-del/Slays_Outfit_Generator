@@ -1,2 +1,2 @@
-# Slays_Outfit_Generator
+# Slays_Outfit_Generator >-<
 Generates slaying outfits!
