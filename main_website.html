@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+        body {background-color: pink;}
+        h1   {color: rgb(121, 20, 82);}
+        p    {color: rgb(31, 1, 27);}
+        img {
+        width: 300px;  /* feste Breite */
+        height: auto;  /* Höhe automatisch proportional */
+        }
+    </style>
     <title>Slays_Outfit_Generator:Internal Script</title>
   </head>
   <body>
-    <button onclick="alert('Welcome to a slaying outfit generator!');">Click Me</button>
+    <button onclick="handleClick()">start</button>
     <script>
-      console.log('hiiii')
+    function handleClick() {
+        alert('Welcome to a slaying outfit generator!');
+        console.log('started');
+    }
     </script>
+    <h1>Lets choose your outfit of the day!</h1>
+    <p>Let us introduce you the slayest of them all: ashley</p>
+    <img src="ashley.jpg" alt="ashley">
   </body>
 </html>
