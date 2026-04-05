@@ -1,7 +1,47 @@
-body {background-color: pink;}
-h1   {color: rgb(121, 20, 82);}
-p    {color: rgb(31, 1, 27);}
-img {
-width: 300px;  /* feste Breite */
-height: auto;  /* Höhe automatisch proportional */
+body {
+    background-image: url('cheetah background.jpg');
+    background-repeat: repeat;
+    background-size: 900px 900px;
+    overflow-y: scroll;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #f3ffd4;
+    margin: 0;
+}
+
+.kasten {
+  width: 1000px;
+  height: 500px;
+  background-color: #ffa1c8;
+  border: solid black;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;          /* NEU - damit oben/unten funktioniert */
+  flex-direction: column; /* NEU - übereinander */
+  align-items: center;    /* zentriert oben & unten horizontal */
+  gap: 12px;              /* NEU - Abstand zwischen oben & unten */
+  margin: 40px auto; /* ← zentriert den kasten! */
+}
+.oben {
+  width: 50%;
+  height: 50%;
+  background-color: #ffffff;
+  border: solid black;
+  border-radius: 8px;   /* runde Ecken */
+}
+
+.unten {
+  width: 50%;
+  height: 50%;
+  background-color: #ffffff;
+  border: solid black;
+  border-radius: 8px;   /* runde Ecken */
+}
+
+
+img{
+    width: 100%;        /* füllt die breite aus */
+    height: 100%;       /* füllt die höhe aus */
+    object-fit: cover;  /* bild wird nicht verzerrt */
+    border-radius: 6px;
 }
