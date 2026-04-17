@@ -2,20 +2,17 @@ body {
     font-family: Arial, sans-serif;
     font-size: 13px;
     color: #000000;
-    margin: 0;
+    margin: 40px;
 }
 
 .kasten {
-  width: 1000px;
-  height: 500px;
-  background-color: #ffa1c8;
-  border: solid black;
+  width: 500px;
+  height: 400px;
+  background-color: #ecb4cc;
+  border: solid rgb(48, 101, 34);
   border-radius: 8px;
   padding: 12px;
-  display: flex;          /* NEU - damit oben/unten funktioniert */
-  flex-direction: column; /* NEU - übereinander */
-  align-items: center;    /* zentriert oben & unten horizontal */
-  gap: 12px;              /* NEU - Abstand zwischen oben & unten */
-  margin: 40px auto; /* ← zentriert den kasten! */
+
+  margin-left: auto; /* 👉 schiebt die Box nach rechts */
 }
 
