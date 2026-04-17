@@ -1,2 +1,2 @@
-# Slays_Outfit_Generator >-<
+# Dress_up_game >-<
 Generates slaying outfits!
