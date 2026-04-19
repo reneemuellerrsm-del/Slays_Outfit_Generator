@@ -1,5 +1,5 @@
 body {
-    background-color: #b9d1c0;
+    background-color: #92b09e;
     font-family: Arial, sans-serif;
     font-size: 13px;
     color: #000000;
@@ -7,13 +7,25 @@ body {
 }
 
 .kasten {
-  width: 500px;
-  height: 400px;
+  width: 1200px;
+  height: 600px;
   background-color: #ecb4cc;
-  border: solid rgb(48, 101, 34);
+  border: solid rgb(222, 172, 213);
   border-radius: 8px;
-  padding: 12px;
+  padding: 0;
+  margin-left: auto;
+  position: relative; 
+  display: flex;
+  justify-content: center;   /* centre horizontalement */
+  align-items: center
 
-  margin-left: auto; /* 👉 schiebt die Box nach rechts */
+   
+}
+.room {
+
+  width: 100%;
+  height: 100%;
+  
+  object-fit: cover;
 }
 
